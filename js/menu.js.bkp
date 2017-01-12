@@ -1,0 +1,143 @@
+var menu = {
+  'Napolitana': {
+    description: 'molho especial da casa, mussarela, parmesão, tomate fresco, azeitona e orégano',
+    price: 20.00
+  },
+  'Palmito': {
+    description: 'molho especial da casa, palmito, mussarela, tomate fresco, azeitona e orégano',
+    price: 25.00
+  },
+
+  'Palmito com catupiry': {
+    description: 'molho especial da casa, mussarela, pepperoni, cebola, parmesão, azeitona e orégano',
+    price: 30.00,
+  },
+  'Pepperoni': {
+    description: 'molho especial da casa, mussarela, pepperoni, cebola, parmesão, azeitona e orégano',
+    price: 30.00,
+  },
+  'Peru c/ Cheddar': {
+    description: 'molho especial da casa, mussarela, peito de peru, cheddar, azeitona e orégano',
+    price: 25.00,
+  },
+  'Portuguesa': {
+    description: 'molho especial da casa, mussarela, presunto, ovo, cebola, ervilha, azeitona e orégano',
+    price: 25.00,
+  },
+  'Quatro Queijos': {
+    description: 'molho especial da casa, mussarela, catupiry, provolone, parmesão, azeitona e orégano',
+    price: 30.00,
+  },
+  'Salame': {
+    description: 'molho especial da casa, mussarela, salame, parmesão, tomate fresco, azeitona e orégano',
+    price: 25.00,
+  },
+  'Salame com catupiry': {
+    description: 'molho especial da casa, mussarela, salame, catupiry, parmesão, azeitona e orégano',
+    price: 30.00,
+  },
+  'Tio Tomate': {
+    description: 'molho especial da casa, mussarela, frango desfiado, presunto, calabresa, tomate fresco, azeitona e orégano',
+    price: 30.00,
+  },
+  'Tomate Seco': {
+    description: 'molho especial da casa, mussarela, tomate seco, parmesão, azeitona e orégano',
+    price: 30.00,
+  },
+  'Adventista': {
+    description: 'molho especial da casa, mussarela, palmito, ervilha, milho verde, tomate fresco, azeitona e orégano',
+    price: 30.00,
+  },
+  'Alho e Óleo': {
+    description: 'molho especial da casa, mussarela, alho frito, parmesão, manjericão, azeitona e orégano',
+    price: 25.00,
+  },
+  'Atum': {
+    description: 'molho especial da casa, mussarela, atum, cebola, tomate fresco, azeitona e orégano',
+    price: 30.00,
+  },
+  'Atum Nobre': {
+    description: 'molho especial da casa, atum, tomate fresco, ervilha, requeijão, azeitona e orégano, mussarela',
+    price: 30.00,
+  },
+  'Bacon': {
+    description: 'molho especial da casa, mussarela, bacon, cebola, tomate fresco, azeitona e orégano',
+    price: 25.00,
+  },
+  'Bauru': {
+    description: 'molho especial da casa, mussarela, presunto, tomate fresco, azeitona e orégano',
+    price: 25.00,
+  },
+  'Bauru Nobre': {
+    description: 'molho especial da casa, presunto, requeijão, tomate fresco, azeitona e orégano, mussarela',
+    price: 25.00,
+  },
+  'Brasileira': {
+    description: 'molho especial da casa, mussarela, presunto, ovo, cebola, ervilha, palmito, azeitona e orégano',
+    price: 25.00,
+  },
+  'Caipira': {
+    description: 'molho especial da casa, mussarela, frango desfiado, milho verde, azeitona e orégano',
+    price: 25.00,
+  },
+  'Marguerita': {
+    description: 'molho especial da casa, mussarela, parmesão, manjericão, azeitona e orégano',
+    price: 25.00,
+  },
+  'Mexicana': {
+    description: 'molho especial da casa, mussarela, bacon, ervilha, cebola, alho frito, azeitona e orégano',
+    price: 25.00,
+  },
+  'Mussarela': {
+    description: 'molho especial da casa, mussarela, tomate fresco, azeitona e orégano',
+    price: 20.00,
+  },
+  'Calabresa': {
+    description: 'molho especial da casa, mussarela, calabresa, cebola, azeitona e orégano',
+    price: 25.00,
+  },
+  'Calabresa com Catupiry': {
+    description: 'molho especial da casa, tomate fresco, catupiry, azeitona e orégano, mussarela',
+    price: 25.00,
+  },
+  'Calabresa Nobre': {
+    description: 'molho especial da casa, calabresa, requeijão, cebola, tomate fresco, azeitona e orégano, mussarela',
+    price: 25.00,
+  },
+  'Carijó': {
+    description: 'molho especial da casa, mussarela, frango desfiado, milho verde, cebola, bacon, azeitona e orégano',
+    price: 30.00,
+  },
+  'Carne de Sol': {
+    description: 'molho especial da casa, mussarela, carne de sol desfiada, cebola, azeitona e orégano',
+    price: 30.00,
+  },
+  'Dois Queijos': {
+    description: 'molho especial da casa, mussarela, catupiry, azeitona e orégano',
+    price: 30.00,
+  },
+  'Florença': {
+    description: 'molho especial da casa, mussarela, lombo, frango, cebola, catupiry, azeitona e orégano',
+    price: 30.00,
+  },
+  'Frango com Catupiry': {
+    description: 'molho especial da casa, frango, catupiry, tomate fresco, azeitona e orégano, mussarela',
+    price: 30.00,
+  },
+  'Frango com Mussarela': {
+    description: 'molho especial da casa, frango, mussarela, tomate fresco, azeitona e orégano',
+    price: 25.00,
+  },
+  'Hot Dog': {
+    description: 'molho especial da casa, mussarela, salsicha, catchup, maionese, batata palha, azeitona e orégano',
+    price: 25.00,
+  },
+  'Lombinho': {
+    description: 'molho especial da casa, mussarela, lombo, cebola, azeitona e orégano',
+    price: 25.00,
+  },
+  'Lombinho com Catupiry': {
+    description: 'molho especial da casa, mussarela, lombo, catupiry, azeitona e orégano',
+    price: 25.00,
+  },
+};

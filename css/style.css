@@ -1,0 +1,12 @@
+.header{ font-weight: bold; font-size: 24px; margin:10px 0 10px 0; }
+.content h4 { margin:0; }
+.summary{ margin-top:20px; }
+
+.pizza { width: 125px; height: 155px; margin:10px; float:left; border: solid 1px #CCC; border-radius: 5px; }
+.pizza .image { width: 111px; height: 111px; margin-left: 6px; margin-top: 6px; }
+.pizza .image img { width: 111px; height: 111px; }
+.pizza .info p { padding:0; margin:0; font-size: 12px; text-align: center; }
+.pizza .info p.name { white-space: nowrap; text-overflow: ellipsis; }
+
+.qnt-value { padding: 0 5px 0 5px; }
+.qnt-less, .qnt-more { display: inline-block; cursor: pointer; color:white; background: cadetblue; width: 15px; height: 15px; border-radius: 10px; line-height: 15px; font-weight: bold; }
